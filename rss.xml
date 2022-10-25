@@ -4,7 +4,7 @@
         <title></title>
         <link>undefined</link>
         <description>undefined</description>
-        <lastBuildDate>Tue, 25 Oct 2022 08:57:31 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 25 Oct 2022 09:04:16 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Joplin Pages Publisher</generator>
         <item>
@@ -12,6 +12,17 @@
             <guid>b5373f6094c24ba1b0a742212551a66a</guid>
             <pubDate>Tue, 25 Oct 2022 08:26:53 GMT</pubDate>
             <content:encoded><![CDATA[test]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[LINUX]]></title>
+            <guid>a7370e0c51254b9ca497dc72cb1861fc</guid>
+            <pubDate>Fri, 21 Oct 2022 19:45:44 GMT</pubDate>
+            <content:encoded><![CDATA[<h2 id="commande">Commande</h2>
+<hr />
+<p>Espace disque<br />
+dossier : du -hs /data01/* |sort -h|tail -20<br />
+fichier : find /data01/yoan/Téléchargements/* -type f -exec du -Sh {} + | sort -rh | head -n 20</p>
+]]></content:encoded>
         </item>
     </channel>
 </rss>
